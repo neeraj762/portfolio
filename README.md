@@ -156,7 +156,3 @@ Netlify will handle submissions and send them to your email.
 5. Open a Pull Request.
 
 ---
-
-## 👨‍💻 Made by
-**Asif Ullah**  
----
