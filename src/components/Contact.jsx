@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { FaWhatsapp, FaPhone, FaEnvelope, FaLinkedin, FaFacebook } from "react-icons/fa"
+import { FaWhatsapp, FaPhone, FaEnvelope, FaLinkedin } from "react-icons/fa"
 
 export default function Contact() {
   return (
@@ -86,11 +86,10 @@ export default function Contact() {
 
           <div className="flex flex-wrap gap-5 sm:gap-6 justify-center">
             {[
-              { icon: <FaWhatsapp />, link: "https://wa.me/923339048670" },
-              { icon: <FaPhone />, link: "tel:+923339048670" },
-              { icon: <FaEnvelope />, link: "mailto:masoodahmadkhoro@gmail.com" },
-              { icon: <FaLinkedin />, link: "linkedin.com/in/masood-ahmad-079330305" },
-              { icon: <FaFacebook />, link: "https://facebook.com/your-profile" },
+              { icon: <FaWhatsapp />, link: "https://wa.me/7082195356" },
+              { icon: <FaPhone />, link: "tel:+917082195356" },
+              { icon: <FaEnvelope />, link: "mailto:nk1708202@gmail.com" },
+              { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/neeraj-kumar-nk076/" }
             ].map((item, i) => (
               <motion.a
                 key={i}

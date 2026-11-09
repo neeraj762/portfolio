@@ -3,10 +3,9 @@ import Hero from "./components/Hero"
 import AboutMe from "./components/AboutMe"
 import Education from "./components/Education"
 import Experience from "./components/Experience"
-import Presentations from "./components/Presentations"
 import SkillsRings from "./components/SkillsRings"
-import Honours from "./components/Honours"
 import Contact from "./components/Contact"
+import Projects from "./components/Projects"
 
 export default function App() {
   return (
@@ -14,11 +13,10 @@ export default function App() {
       <Navbar />
       <Hero />
       <AboutMe />
-      <Education />
       <Experience />
-      <Presentations />
       <SkillsRings />
-      <Honours />
+      <Projects/>
+      <Education />
       <Contact/>
     </div>
   )

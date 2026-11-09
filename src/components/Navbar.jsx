@@ -8,11 +8,10 @@ export default function Navbar() {
   const navItems = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
-    { name: "Education", link: "#education" },
     { name: "Experience", link: "#experience" },
-    { name: "Presentations", link: "#presentations" },
     { name: "Skills", link: "#skills" },
-    { name: "Honours", link: "#honours" },
+    { name: "Projects", link: "#projects" },
+    { name: "Education", link: "#education" },
     { name: "Contact", link: "#contact" },
   ]
 
@@ -26,7 +25,7 @@ export default function Navbar() {
       <div className="container mx-auto flex justify-between items-center px-6 py-4">
         {/* Brand */}
         <h1 className="text-xl md:text-2xl font-extrabold bg-gradient-to-r from-red-800 via-red-400 to-red-900 bg-clip-text text-transparent">
-          Masood Ahmad
+          Neeraj Kumar
         </h1>
 
         {/* Desktop Menu */}
@@ -43,7 +42,7 @@ export default function Navbar() {
           {/* CV Button */}
           <motion.li whileHover={{ scale: 1.1 }}>
             <a
-              href="/Masood Ahmad.pdf"
+              href="/NeerajKumarResume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-yellow-400 to-orange-500 px-4 py-2 rounded-xl text-white shadow-md hover:shadow-[0_0_15px_#facc15] transition"
@@ -100,7 +99,7 @@ export default function Navbar() {
               {/* CV Button for Mobile */}
               <li>
                 <a
-                  href="/Masood Ahmad.pdf"
+                  href="/NeerajKumarResume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-gradient-to-r from-yellow-400 to-orange-500 px-4 py-2 rounded-xl text-white text-center shadow-md hover:shadow-[0_0_20px_#facc15] transition"

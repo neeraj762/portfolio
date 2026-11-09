@@ -2,39 +2,18 @@ import { motion } from "framer-motion"
 
 const educationData = [
   {
-    degree: "Master of Science (M.Sc.) in Mathematics",
-    institution: "Lahore University of Management Sciences (LUMS)",
-    year: "May 2025 • CGPA: 3.88 / 4.00",
-    location: "Lahore, Pakistan",
-    desc: "Thesis: Existence of invariant and ergodic measures on deterministic and random dynamical systems. Related coursework: Discrete and continuous dynamical systems, probability theory."
+    degree: "B.Tech in Computer Science And Engineering",
+    institution: "Guru Jambheshwar University Of Science & Technology",
+    year: "2020-2024 ",
+    location: "Hisar, Haryana",
+    desc:"Built a strong foundation in core computer science subjects, including Operating Systems, DBMS, Computer Networks, Data Structures and Algorithms, Object-Oriented Programming, and Software Engineering. Solved 300+ problems on LeetCode, developed web development skills, and participated in technical and academic activities."
   },
   {
-    degree: "Postgraduate Diploma in Mathematics",
-    institution: "COMSATS University Islamabad",
-    year: "Aug 2022",
-    location: "Islamabad, Pakistan",
-    desc: "Related coursework: Ergodic theory, functional analysis, measure theory."
-  },
-  {
-    degree: "Bachelor of Science (B.Sc.) in Mathematics",
-    institution: "University of Peshawar",
-    year: "May 2023 • CGPA: 3.92 / 4.00",
-    location: "Peshawar, Pakistan",
-    desc: "Thesis: Improvements of the discrete and integral version of Jensen’s and Slater’s inequality. Related coursework: Real analysis, numerical analysis, algebra, differential equations."
-  },
-  {
-    degree: "Intermediate (F.Sc. Pre-Engineering)",
-    institution: "Govt. College",
-    year: "2018",
-    location: "Swabi, Pakistan",
-    desc: "Focus on Mathematics and Physics. Built foundation of logical reasoning and analytical skills."
-  },
-  {
-    degree: "Matriculation (Science)",
-    institution: "Model High School",
-    year: "2016",
-    location: "Swabi, Pakistan",
-    desc: "Completed foundation studies in Mathematics and Science with distinction."
+    degree: "Senior Secondary School",
+    institution: "Holy Child Public School",
+    year: "2020",
+    location: "Rewari, Haryana",
+    desc: "Studied Physics, Chemistry, and Mathematics (Non-Medical) in Class 12 and secured 91.4% marks."
   }
 ]
 
